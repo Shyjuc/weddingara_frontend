@@ -1,0 +1,59 @@
+.header
+{
+    display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    align-items:center;
+    justify-content:space-between;
+    top:0;
+    left:0;
+}
+.header-bg-white
+{
+    background-color:#fff !important;
+}
+.topnav-background
+{
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    position:sticky;
+}
+.shine-background{
+    background: #ADD100;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #c19136, #e4b55c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #c19136, #e4b55c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.relative
+{
+    position:relative;
+}
+.topnav-area
+{
+    width:100%;
+    padding: 0 40px;
+}
+.topnav-contents
+{
+    font-size:12px;
+    height:40px;
+    display:flex;
+    flex-direction:row-reverese;
+    justify-content:space-between;
+    align-items:stretch;
+}
+.topnav-logoarea
+{
+    justify-content:space-between;
+}
+.topnav-tagline
+{
+    aign-self:flex-end;
+    color:#fff;
+}

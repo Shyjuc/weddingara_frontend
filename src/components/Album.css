@@ -1,0 +1,33 @@
+.album-container img
+{
+    border-radius:5px;
+    -webkit-box-shadow: 1px 1px 20px 1px #cccccc;
+    box-shadow: 1px 1px 20px 1px #cccccc;
+}
+.album-container h4
+{
+    color:#28395a;
+    font-size:16px;;
+}
+.album-container p
+{
+    color:#666666;
+    font-size:13px;;
+}
+.amount-text-area
+{
+    color:#c19136;
+    font-size:14px;
+    font-weight:600;
+}
+.btn-vendor-action
+{
+    border: 1px solid #d61e8e !important;
+    color:#d61e8e;
+}
+.btn-vendor-action:hover
+{
+    border: 1px solid #d61e8e !important;
+    color:#fff !important;
+    background-color:#d61e8e !important;
+}

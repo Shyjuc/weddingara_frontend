@@ -1,0 +1,34 @@
+.text-bg-blue
+{
+    background-color:#e987af;
+    color:#fff;
+}
+.text-bg-blue h2
+{
+    font-size:24px !important;
+}
+.text-bg-blue-outline
+{
+    background-color:#ffffff;
+    border:1px solid #e987af !important;
+    margin-top:20px;
+}
+.text-bg-blue-outline h2
+{
+    font-size:24px !important;
+}
+.bg-prime
+{
+    background: #C19136;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #C19136, #E4B55C);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #C19136, #E4B55C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+border:1px solid #ffffff;
+}
+
+.bg-prime:hover
+{
+    background: #E4B55C;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E4B55C, #C19136);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E4B55C, #C19136); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+border:1px solid #d61e8e;
+}
