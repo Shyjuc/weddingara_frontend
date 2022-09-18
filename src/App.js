@@ -3,6 +3,7 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import Home from './components/pages/Home'
 import Useful from './components/pages/Useful'
+import Vendors from './components/pages/Vendors'
 import Register from './components/pages/Register'
 import Login from './components/pages/Login'
 import Topnav from './components/Topnav'
@@ -21,6 +22,7 @@ function App() {
         <Routes>
         <Route path='/' exact element={<Home />} />
         <Route path='/useful' exact element={<Useful />} />
+        <Route path='/vendors' exact element={<Vendors />} />
         <Route path='/register' exact element={<Register />} />
         <Route path='/login' exact element={<Login />} />
 

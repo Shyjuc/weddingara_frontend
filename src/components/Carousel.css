@@ -1,0 +1,16 @@
+.carousel-cover {
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    background-image: url('../images/bg_carousel.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+    text-align:center;
+    top:-10px;
+  }
+  .carousel-item {
+    background:none;
+  }

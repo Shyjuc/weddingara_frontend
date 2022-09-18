@@ -56,14 +56,16 @@ class SearchBar extends Component {
 
   */
 
+  /*
   get renderMovies() {
-    let movies = <h1>There's no movies</h1>;
+    let movies = <h1>There's no vendors</h1>;
     if (this.state.movies) {
       movies = <Movies list={this.state.movies} />;
     }
 
     return movies;
   };
+  */
 
   render() {
   return (
