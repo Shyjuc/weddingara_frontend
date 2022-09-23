@@ -9,7 +9,7 @@ import axios from '../api/axios';
 import './register.css';
 
 const USER_REGEX = /^[A-z][A-z0-9-_]{3,23}$/;
-const EMAIL_REGEX = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
+const EMAIL_REGEX = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 const PWD_REGEX = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%]).{8,24}$/;
 const REGISTER_URL = '/api/register';
 
@@ -147,7 +147,7 @@ const Signup = () => {
             onChange={(e) => setUser(e.target.value)}
             required
             aria-invalid = {validName ? "false" : "true"}
-            aria-desribedby = "uidnote"
+            //aria-desribedby = "uidnote"
             onFocus = {()=> setUserFocus(true)}
             onBlur = {() => setUserFocus(false)}
             className="form-control"
