@@ -9,7 +9,6 @@ import axios from '../api/axios';
 import './register.css';
 
 const USER_REGEX = /^[A-z][A-z0-9-_]{3,23}$/;
-const EMAIL_REGEX = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 const PWD_REGEX = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%]).{8,24}$/;
 const REGISTER_URL = '/api/register';
 
@@ -51,7 +50,7 @@ const Signup = () => {
     },[user])
     //user state in the dependency array
     //Any time it changes, it check the validation
-
+    /*
     useEffect(() => {
         const result = EMAIL_REGEX.test(email);
         console.log(result);
@@ -59,6 +58,7 @@ const Signup = () => {
         setValidEmail(result);
 
     },[email])
+    */
 
     useEffect(() => {
         const result = PWD_REGEX.test(pwd);
