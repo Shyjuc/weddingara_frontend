@@ -168,14 +168,14 @@ const Signup = () => {
             autoComplete="off"
             onChange={(e) => setEmail(e.target.value)}
             required
-            aria-invalid={validEmail ? "false" : "true"}
+            //aria-invalid={validEmail ? "false" : "true"}
             aria-describedby="emailnote"
             onFocus = {()=> setEmailFocus(true)}
             onBlur = {() => setEmailFocus(false)}
             className="form-control"
             placeholder="Enter email"
           />
-          <p id="emailnote" className={emailFocus && email && !validEmail ? "instructions" : "offscreen"}>
+          <p id="emailnote" className={emailFocus && email ? "instructions" : "offscreen"}>
                             <FontAwesomeIcon icon={faInfoCircle} />
                             It need to be a valid email.<br />
                             Must begin with a letter.<br />
