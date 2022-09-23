@@ -44,7 +44,7 @@ function Blog() {
           <dd>The programming language used to build advanced Web sites and applications</dd>
         </dl>
         <h2>Inline HTML elements</h2>
-        <p>HTML defines a long list of available inline tags, a complete list of which can be found on the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">Mozilla Developer Network</a>.</p>
+        <p>HTML defines a long list of available inline tags, a complete list of which can be found on the.</p>
         <ul>
           <li><strong>To bold text</strong>, use <code className="language-plaintext highlighter-rouge">&lt;strong&gt;</code>.</li>
           <li><em>To italicize text</em>, use <code className="language-plaintext highlighter-rouge">&lt;em&gt;</code>.</li>
@@ -64,7 +64,7 @@ function Blog() {
 
       <article className="blog-post">
         <h2 className="blog-post-title mb-1">Another blog post</h2>
-        <p className="blog-post-meta">December 23, 2020 by <a href="#">Jacob</a></p>
+        <p className="blog-post-meta">December 23, 2020 by </p>
 
         <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
         <blockquote>
@@ -112,7 +112,7 @@ function Blog() {
 
       <article className="blog-post">
         <h2 className="blog-post-title mb-1">New feature</h2>
-        <p className="blog-post-meta">December 14, 2020 by <a href="#">Chris</a></p>
+        <p className="blog-post-meta">December 14, 2020 by </p>
 
         <p>This is some additional paragraph placeholder content. It has been written to fill the available space and show how a longer snippet of text affects the surrounding content. We'll repeat it often to keep the demonstration flowing, so be on the lookout for this exact same string of text.</p>
         <ul>
@@ -123,10 +123,7 @@ function Blog() {
         <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the other highly repetitive body text used throughout.</p>
       </article>
 
-      <nav className="blog-pagination" aria-label="Pagination">
-        <a className="btn btn-outline-primary rounded-pill" href="#">Older</a>
-        <a className="btn btn-outline-secondary rounded-pill disabled">Newer</a>
-      </nav>
+
 
     </div>
     </>

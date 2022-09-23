@@ -13,17 +13,17 @@ function Header() {
       <div className="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
         <ul className="navbar-nav">
           <li className="nav-item">
-            <a className="nav-link active" aria-current="page" href="#">Kerala's trusted Wedding Partner</a>
+            <a className="nav-link active" aria-current="page" href="/">Kerala's trusted Wedding Partner</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">Find your city:</a>
+            <a className="nav-link" href="/">Find your city:</a>
           </li>
           <li className="nav-item dropdown">
-            <a className="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Calicut</a>
+            <a className="nav-link dropdown-toggle" href="/" data-bs-toggle="dropdown" aria-expanded="false">Calicut</a>
             <ul className="dropdown-menu">
-              <li><a className="dropdown-item" href="#">Kannur</a></li>
-              <li><a className="dropdown-item" href="#">Ernakulam</a></li>
-              <li><a className="dropdown-item" href="#">Thiruvananthapuram</a></li>
+              <li><a className="dropdown-item" href="/">Kannur</a></li>
+              <li><a className="dropdown-item" href="/">Ernakulam</a></li>
+              <li><a className="dropdown-item" href="/">Thiruvananthapuram</a></li>
             </ul>
           </li>
         </ul>

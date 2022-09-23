@@ -1,10 +1,6 @@
 import React from 'react'
 import '../../App.css';
 import Masonry from '../Masonry';
-import AboutInfo from '../AboutInfo';
-import Album from '../Album';
-import Feature from '../Feature';
-import InfoBox from '../InfoBox';
 import Cover from '../Cover';
 import Featured from '../Featured';
 import Blog from '../Blog';

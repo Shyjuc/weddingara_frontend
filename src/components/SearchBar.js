@@ -3,8 +3,8 @@ import './SearchBar.css';
 
 import axios from "axios";
 
-import { search } from "./utils";
-import Movies from "./Movies";
+//import { search } from "./utils";
+//import Movies from "./Movies";
 
 
 
@@ -33,7 +33,7 @@ class SearchBar extends Component {
 
    onChangeHandler = async e => {
     this.setState({ loading: true });
-    const searchTerm = e.target.value;
+//    const searchTerm = e.target.value;
     this.setState({ value: e.target.value });
     const results = await axios.get(
       `http://127.0.0.1:8000/api/search/${e}/${e}`
